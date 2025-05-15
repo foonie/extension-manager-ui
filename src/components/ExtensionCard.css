@@ -1,0 +1,43 @@
+.ExtensionCard-container {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px 20px;
+}
+
+.cards-top-section{
+    display: flex;
+}
+
+.card-text {
+    text-align: start;
+    margin: 0px 15px;
+}
+
+.card-text p, .card-text h2 {
+    margin: 0px;
+}
+
+h2.Extension-heading {
+    margin-bottom: 5px;
+}
+
+.cards-actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* or space-between / center depending on layout */
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.toggle-button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button.remove-button {
+    border-radius: 30px;
+}
