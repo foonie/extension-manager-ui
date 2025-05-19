@@ -1,4 +1,13 @@
+#root {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
 .App{
-    display: inline-flex;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));  /* minmax sets the column width */
+    gap: 20px;
+    padding: 30px;
+    background-color: #0f172a;
 }
