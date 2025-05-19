@@ -1,9 +1,11 @@
 .ExtensionCard-container {
-    background-color: gray;
-    border-radius: 8px;
+    background-color: #1e293b;
+    color: #fff;
     padding: 20px;
-    width: 350px;
-    margin: 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .cards-top-section{
